@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cachem_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cachem/cachem_{{ version }}.tar.gz
-  sha256: 8474eec3f4f68ff20da2ef4556d0e986ae6fe468b31b74398890aa3b0fb15641
+  sha256: 79dc9746366550e07132ac97d77632b70f9e8ce9493f84ed607b584f4d5a7278
 
 build:
   merge_build_host: true  # [win]
