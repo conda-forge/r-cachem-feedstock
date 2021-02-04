@@ -1,4 +1,4 @@
-{% set version = '1.0.1' %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cachem_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cachem/cachem_{{ version }}.tar.gz
-  sha256: 8e65d0e84f6898d4307d6d848ed99d47f156fe31589b7e5a723cedde3d31b822
+  sha256: 8474eec3f4f68ff20da2ef4556d0e986ae6fe468b31b74398890aa3b0fb15641
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -46,9 +46,7 @@ test:
 about:
   home: https://cachem.r-lib.org/, https://github.com/r-lib/cachem
   license: MIT
-  summary: Key-value stores with automatic pruning. Caches can limit either their total size
-    or the age of the oldest object (or both), automatically pruning objects to maintain
-    the constraints.
+  summary: Key-value stores with automatic pruning. Caches can limit either their total size or the age of the oldest object (or both), automatically pruning objects to maintain the constraints.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
