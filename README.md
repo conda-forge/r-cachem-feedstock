@@ -1,11 +1,22 @@
+About r-cachem-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cachem-feedstock/blob/main/LICENSE.txt)
+
 About r-cachem
-==============
+--------------
 
 Home: https://cachem.r-lib.org/, https://github.com/r-lib/cachem
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cachem-feedstock/blob/main/LICENSE.txt)
+Summary: Key-value stores with automatic pruning. Caches can limit either their total size or the age of the oldest object (or both), automatically pruning objects to maintain the constraints.
+About r-cachem
+--------------
+
+Home: https://cachem.r-lib.org/, https://github.com/r-lib/cachem
+
+Package license: MIT
 
 Summary: Key-value stores with automatic pruning. Caches can limit either their total size or the age of the oldest object (or both), automatically pruning objects to maintain the constraints.
 
